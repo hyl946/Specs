@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MMBaseLib'
+  s.name             = 'MMHomeLib'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of ModularizationBaseLib.'
+  s.summary          = 'A short description of MMUIKitLib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,24 +17,24 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "this is MMBaseLib 0.0.1"
+  s.description      = "this is MMHomeLib"
 
-  s.homepage         = 'https://github.com/hyl946/MMBaseLib'
+  s.homepage         = 'https://github.com/hyl946/MMHomeLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hyl946' => 'hyl946@163.com' }
-  s.source           = { :git => 'https://github.com/hyl946/MMBaseLib.git',:tag => '0.0.1' }
+  s.source           = { :git => 'https://github.com/hyl946/MMHomeLib.git',:tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MMBaseLib/classes/*'
-  
+  s.source_files = 'MMHomeLib/Class/*'
+  s.dependency 'MMBaseLib', '~> 0.0.1'
+  # s.frameworks = 'MMBaseLib', 'MMUIKitLib'
   # s.resource_bundles = {
   #   'ModularizationBaseLib' => ['ModularizationBaseLib/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

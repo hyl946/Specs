@@ -1,19 +1,22 @@
 {
   "name": "MMBaseLib",
-  "version": "1.0.0",
-  "summary": "A simple MMBaseLib",
-  "homepage": "https://github.com/hyl946/MMBaseLib.git",
-  "license": "MIT",
+  "version": "0.0.1",
+  "summary": "A short description of ModularizationBaseLib.",
+  "description": "this is MMBaseLib 0.0.1",
+  "homepage": "https://github.com/hyl946/MMBaseLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "hyl946" : "hyl946@163.com"
+    "hyl946": "hyl946@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hyl946/MMBaseLib.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source": {
-    "git": "https://github.com/hyl946/MMBaseLib.git",
-    "tag": "1.0.0"
-  },
-  "source_files": "MMBaseLib/*",
-  "requires_arc": true
+  "source_files": "MMBaseLib/classes/*"
 }
