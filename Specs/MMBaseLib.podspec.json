@@ -5,7 +5,7 @@
   "homepage": "https://github.com/hyl946/MMBaseLib.git",
   "license": "MIT",
   "authors": {
-    'hyl946' => 'hyl946@163.com'
+    "hyl946" : "hyl946@163.com"
   },
   "platforms": {
     "ios": "8.0"
