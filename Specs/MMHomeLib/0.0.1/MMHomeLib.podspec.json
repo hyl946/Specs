@@ -1,0 +1,27 @@
+{
+  "name": "MMHomeLib",
+  "version": "0.0.1",
+  "summary": "A short description of MMUIKitLib.",
+  "description": "this is MMHomeLib",
+  "homepage": "https://github.com/hyl946/MMHomeLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hyl946": "hyl946@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hyl946/MMHomeLib.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMHomeLib/Class/*",
+  "dependencies": {
+    "MMBaseLib": [
+      "~> 0.0.1"
+    ]
+  }
+}
