@@ -1,0 +1,19 @@
+{
+  "name": "MMBaseLib",
+  "version": "1.0.0",
+  "summary": "A simple MMBaseLib",
+  "homepage": "https://github.com/hyl946/MMBaseLib.git",
+  "license": "MIT",
+  "authors": {
+    'hyl946' => 'hyl946@163.com'
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/hyl946/MMBaseLib.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "MMBaseLib/**/*.{h,m}",
+  "requires_arc": true
+}
