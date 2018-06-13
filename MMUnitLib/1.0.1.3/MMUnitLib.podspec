@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MMUnitLib/Class/*/*.{h,m}'
+  s.source_files = 'MMUnitLib/Class'
   s.dependency 'FMDB', '~> 2.6.2'
 
   s.resource_bundles = {
